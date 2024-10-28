@@ -1,0 +1,16 @@
+{
+    "tauri": {
+      "allowlist": {
+        "dialog": {
+          "all": true
+        },
+        "path": {
+            "all": true
+        },
+        "fs": {
+            "readFile": true,
+            "exists": true
+        }
+      }
+    }
+  }
