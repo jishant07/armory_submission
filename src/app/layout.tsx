@@ -57,7 +57,7 @@ export default function RootLayout() {
 
   useEffect(()=>{
     reChunkData(granularity)
-  },[granularity, reChunkData])
+  },[granularity])
 
   const handleBrowse = async () => {
     setIsLoading(true)
